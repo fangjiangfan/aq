@@ -1,0 +1,299 @@
+
+
+/*******************头部********************/
+.mian{
+	width: 100%;
+	height:30px ;
+	overflow: hidden;
+	background: #f2f2f2 ;
+}
+
+/**********************banner**********************/
+
+.banner img{
+	width: 100%;
+	height: 522px;
+	position: absolute;
+	top:160px;
+	z-index: -20;
+	overflow: hidden;
+}
+/*************图片*************************/
+.show{
+	width: 1040px;
+	margin: 0 auto;
+	top:254px;
+	position: relative;
+	background: #fff;
+	overflow: hidden;
+}
+/**************图片左阴影*************************/
+.show-left{
+	z-index: -10;
+	position: absolute;
+	left: -5px;
+	width: 20px;
+	height: 500px;
+	background: url(../images/img/base_z.png);
+}
+/**************图片右阴影*************************/
+.show-right{
+	z-index: -10;
+	position: absolute;
+	right: -25px;
+	width: 20px;
+	height: 500px;
+	background: url(../images/img/base_z.png);
+}
+.tupian{
+	margin-left: 20px;
+}
+ .tupian2 h3{
+	padding:20px 0 10px 0;
+	font-size: 30px;
+	font-weight: 100;
+}
+
+ .tupian2 ul{
+	float: left;
+}
+ .tupian2 ul li{
+	list-style: none;
+	float: left;
+	padding: 0 18px 20px 0;
+}
+ .tupian2 ul li  div{
+	background:#f2f2f2;;
+	height: 40px;
+}
+ .tupian2 ul li  span{
+	width: 180px;
+	height: 40px;
+	line-height: 40px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	float: left;
+}
+ .tupian2 ul li  p{
+	width: 52px;
+	font-size: 18px;
+	color: #db2726;
+	float: right;
+	line-height: 40px;
+}
+ .tupian2 ul li  p b{
+	width: 26px;
+	font-size:12px ;
+}
+#list-r{
+	float: right;
+	margin-right:20px ;
+	margin-bottom: 25px;
+}
+.box{
+	width: 320px;
+	height: 486px;
+	background: url(../images/bg.jpg);
+	display: inline-block;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+.box h4{
+	font-size: 40px;
+	margin: 0 auto;
+	font-weight: 100;
+	width: 80px;
+	height: 40px;
+}
+ h1{
+	font-size: 40px;
+	margin: 15px auto;
+	font-weight: 100;
+	width: 220px;
+	height: 40px;
+	font-family: "微软雅黑";
+}
+ .box2{
+ 	margin-top:280px;
+ 	margin-left: 52px;
+ 	width: 180px;
+ 	border-bottom: 1px solid #000000;
+ }
+ .tupian2  ol{
+ 	border-top:1px solid #000000 ;
+ 	padding:15px 0 9px 0 ;
+ 	height: 13px;
+ 	width: 180px;
+ 	margin: 0 auto;
+ }
+ .tupian2  ol dl{
+	float: left;
+	margin-left: 12px;
+
+}
+.peishi{
+	top:50px;
+	width: 70px;
+	height: 15px;
+	margin: 0 auto;
+}
+.peishi2{
+	margin-left: 12px;
+	display: inline-block;
+	width: 28px;
+	height: 14px;
+}
+.genduo{
+	width: 62px;
+	height:14px;
+	margin: 10px 0 10px 66px;
+}
+.genduo2{
+	float: right;
+	width: 60px;
+	height: 14px;
+	margin-right: 20px;
+}
+.genduo2 img{
+	float: right;
+	margin-top: 4px;
+}
+.man-box{
+	width: 320px;
+	height: 486px;
+	background: url(../images/bg.jpg) -320px;
+	display: inline-block;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+.man-box h4{
+	font-size: 40px;
+	color: #FFFFFF;
+	margin: 0 auto;
+	font-weight: 100;
+	width: 80px;
+	height: 40px;
+}
+.jia-box h4, .mei-box h4,.kids-box h4{
+	font-size: 40px;
+	color: #000;
+	margin: 0 auto;
+	font-weight: 100;
+	width: 80px;
+	height: 40px;
+	text-align: center;
+}
+.man-box h1{
+	font-size: 40px;
+	color: #FFFFFF;
+	margin: 15px auto;
+	font-weight: 100;
+	width: 100px;
+	height: 40px;
+	font-family: "微软雅黑";
+}
+.jia-box h1,.mei-box h1,.kids-box h1{
+	font-size: 40px;
+	color: #000;
+	margin: 15px auto;
+	font-weight: 100;
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	font-family: "微软雅黑";
+}
+.tupian2 .man-box .box2 ol dl a{
+	color: #fff;
+}
+ .man-box .box2{
+ 	margin-top:280px;
+ 	margin-left: 52px;
+ 	border-bottom: 1px solid #FFFFFF;
+ }
+  .man-box  ol{
+ 	border-top:1px solid #fff ;
+ 	padding:15px 0 9px 0 ;
+ 	height: 13px;
+ 	margin: 0 auto;
+ }
+ .man-box .genduo{
+	width: 62px;
+	height:14px;
+	margin: 10px 0 10px 66px;
+	color: #FFFFFF;
+}
+ol dl:nth-child(6){
+	margin-left:28px ;
+}
+.mei-box{
+	width: 320px;
+	height: 486px;
+	background: url(../images/bg.jpg) -640px;
+	display: inline-block;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+.jia-box{
+	width: 320px;
+	height: 486px;
+	background: url(../images/bg.jpg) -960px;
+	display: inline-block;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+.jia-box2{
+ 	margin-top:280px;
+ 	margin-left: 52px;
+ 	width: 246px;
+ 	border-bottom: 1px solid #000;
+ }
+  .jia-box2  ol{
+ 	border-top:1px solid #000 ;
+ 	width: 246px;
+ 	padding:15px 0 9px 0 ;
+ 	height: 13px;
+ 	margin: 0 auto;
+ }
+ .shuma{
+ 	width: 75px;
+ 	margin: 0 auto;
+ }
+.jia-genduo{
+	width: 65px;
+	margin: 0 auto;
+}.kids-box{
+	width: 320px;
+	height: 486px;
+	background: url(../images/bg.jpg) -1280px;
+	display: inline-block;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+
+#DivImg {
+	width: 320px;
+	height: 192px;
+	background: #4C4C4C;
+	opacity:1 ;
+	filter: alpha(opacity=100);
+	text-align: center;
+	line-height: 192px;
+	overflow: hidden;
+	position: relative;
+}
+
+#time{
+	position: absolute;
+	width: 100%;
+	height: auto;
+	font-size: 16px;
+	color: mediumspringgreen;
+	top:45%;
+	text-align: center;
+	
+}
+#bottom{
+	width: 100%;
+}

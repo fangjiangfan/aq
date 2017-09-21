@@ -1,0 +1,234 @@
+.bottom-main{
+	width: 100%;
+	height: 235px;
+	background: #F2F2F2;
+}
+.bottom-main2{
+	width: 1000px;
+	height: 93px;
+	background: #F2F2F2;
+	margin: 0 auto;
+}
+ .bottom-main2 ul li{
+	float: left;
+}
+.bottom-main ul li{
+	width: 165px;
+	height: 60px;
+	border-right: 1px solid #CCCCCC;
+	line-height:95px;
+	text-align: center;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+ .a1{
+ 	display: block;
+ 	height: 60px;
+	background: url(../images/img/base_z.png) -153px  -146px;
+}
+ .a2{
+ 	display: block;
+ 	height: 60px;
+	background: url(../images/img/base_z.png) -543px  -104px;
+}
+ .a3{
+ 	display: block;
+ 	height: 60px;
+	background: url(../images/img/base_z.png) -150px  -382px;
+}
+ .a4{
+ 	display: block;
+ 	height: 60px;
+	background: url(../images/img/base_z.png) -419px  5px;
+}
+ .a5{
+ 	display: block;
+ 	height: 60px;
+	background: url(../images/img/base_z.png) -301px  -346px;
+}
+ .a6{
+ 	display: block;
+ 	height: 60px;
+	background: url(../images/img/base_z.png) -301px  -112px;
+}
+.a1:hover{
+	background: url(../images/img/base_z.png) -153px  -264px;
+}
+.a2:hover{
+	background: url(../images/img/base_z.png) -543px 7px;
+}
+.a3:hover{
+	background: url(../images/img/base_z.png) -301px -229px;
+}
+.a4:hover{
+	background: url(../images/img/base_z.png) -419px -107px;
+}
+.a5:hover{
+	background: url(../images/img/base_z.png) -301px -459px;
+}
+.a6:hover{
+	background: url(../images/img/base_z.png) -301px 5px;
+}
+.footer-link,.footer-copy{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.footer-link a{
+	margin-left: 12px;
+	margin-right: 12px;
+}
+.footer-copy span{
+	margin-right: 30px;
+}
+.footer-license{
+	margin:0 auto;
+}
+.date h3{
+	font-size: 40px;
+	margin: 20px 0 20px 0;
+}
+.week{
+	width: 1000px;
+	height: 26px;
+	position: relative;
+	margin-bottom: 10px;
+}
+.week-line{
+	width: 90px;
+    height: 4px;
+    overflow: hidden;
+    background-color: #000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.week-right{
+	float: right;
+}
+.week-right i{
+	font-size:16px ;
+	color: red;
+	font-weight:900 ;
+}
+.date .week li{
+	float: left;
+	height: 16px;
+	width: 90px;
+	border-left: 1px solid #000;
+	text-align: center;
+	line-height: 16px;
+	overflow: hidden;
+}
+.date .week li:nth-child(2){
+	border-left: none;
+}
+.date .activity li div{
+	width: 170px;
+	height: 89px;
+	background: #f2f2f2;
+	float: right;
+}
+.date .activity li img{
+	float: left;
+}
+.date .activity li{
+	float: left;
+	width: 320px;
+	height: 90px;
+	border: 1px solid #CCCCCC;
+	margin: 0 20px 20px 0;
+	position: relative;
+}
+.date .activity li .theActivities{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #4C4C4C;
+	display: none;
+}
+.date .activity li .theActivities .b1,
+.date .activity li .theActivities .b2{
+	text-align: center;
+	color: #FFFFFF;
+	width: 45%;
+	height: 30px;
+	display: block;
+	float: left;
+	margin: 0 auto;
+}
+.date .activity li .theActivities .theButton{
+	width: 120px;
+    height: 30px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -60px;
+    top: 30px;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    background-color: #db2726;
+    z-index: 2;
+}
+.date .activity li .theActivities span{
+	text-align: center;
+	color: #FFFFFF;
+	width: 10%;
+	height: 30px;
+	display: block;
+	float: left;
+}
+.date .activity li p{
+	margin: 9px;
+}
+.date .activity li .discount{
+	font-size:24px ;
+	color: red;
+}
+.date .activity li .discount span{
+	font-size:12px ;
+}
+#ban{
+	width: 1040px;
+	margin: 20px auto;
+	overflow: hidden;
+}
+.returnTop{
+	width: 96px;
+	/*height: 298px;*/
+	position: fixed;
+	border: 1px solid #ccc;
+	right: 0;
+	bottom: 83px;
+	text-align: center;
+}
+
+.returnTop img{
+	width:75px;
+	height: 75px;
+	margin: 10px auto;
+}
+.returnTop-1{
+	font-size:14px ;
+	color: #FFFFFF;
+	padding: 5px 0;
+	background: #000000;
+}
+.returnTop-1 div{
+	width: 96px;
+	height: 216px;
+	
+}
+.returnTop-1 span{
+	color: red;
+	font-size:16px ;
+	letter-spacing: 2px;
+	font-weight: 200;
+}
+.returnTop a{
+	display: block;
+	width: 96px;
+	height: 24px;
+	background: url(../images/img/icon_arrows_top.png) no-repeat;
+	margin: 7px 0  0 37px ;
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="jquery-1.12.3.js"></script>
+		<style type="text/css">
+			#list,
+			#list2,
+			#list3 {
+				margin: 0 auto;
+				width: 800px;
+				height: 200px;
+			}
+			
+			ul li {
+				list-style: none;
+				width: 150px;
+				height: 180px;
+				margin: 10px;
+				float: left;
+				background: palegreen;
+				position: relative;
+			}
+			
+			.left-line {
+				width: 0;
+				height: 1px;
+				position: absolute;
+				top: 0;
+				left: -1px;
+				background: orange;
+			}
+			
+			.top-line {
+				width: 1px;
+				height: 0;
+				position: absolute;
+				top: -1px;
+				left: 0px;
+				background: orange;
+			}
+			
+			.right-line {
+				width: 1px;
+				height: 0;
+				position: absolute;
+				bottom: -1px;
+				right: 0;
+				background: orange;
+			}
+			
+			.bottom-line {
+				width: 0;
+				height: 1px;
+				position: absolute;
+				bottom: 0;
+				right: -1px;
+				background: orange;
+			}
+		</style>
+		<script>
+			$(function() {
+				$("#list").on("mouseenter", "li", function() {
+					//移入li，给左、下边线添加宽度(变长)
+					$(this).find(".left-line,.bottom-line").stop().animate({
+						"width": $(this).width()
+					}, 2000, "linear");
+					//移入li，给右、上边线添加宽度(变高)
+					$(this).find(".top-line,.right-line").stop().animate({
+						"height": $(this).height()
+					}, 2000, "linear");
+				})
+				$("#list").on("mouseleave", "li", function() {
+					//移入li，给左、下边线消失
+					$(this).find(".left-line,.bottom-line").animate({
+						"width": 0
+					}, 2000, "linear");
+					//移入li，给右、上边线添加消失
+					$(this).find(".top-line,.right-line").animate({
+						"height": 0
+					}, 2000, "linear");
+				})
+				//延时器设置自动效果
+				setInterval(function() {
+					$("#list2").find(".left-line,.bottom-line").animate({
+						"width": $("#list2 li").width()
+					}, 2000, "linear");
+					//移入li，给右、上边线添加宽度(变高)
+					$("#list2").find(".top-line,.right-line").animate({
+						"height": $("#list2 li").height()
+					}, 2000, "linear");
+					//到达2秒后开始动画消失，缺点需要计算时间
+					setTimeout(function() {
+						$("#list2").find(".left-line,.bottom-line").animate({
+							"width": 0
+						}, 2000, "linear");
+						//移入li，给右、上边线添加消失
+						$("#list2").find(".top-line,.right-line").animate({
+							"height": 0
+						}, 2000, "linear");
+					}, 2000)
+				}, 4000)
+
+			})
+		</script>
+	</head>
+
+	<body>
+		<ul id="list">
+			<li>
+				<div class='left-line'></div>
+				<div class='top-line'></div>
+				<div class='right-line'></div>
+				<div class='bottom-line'></div>
+			</li>
+			<li>
+				<div class='left-line'></div>
+				<div class='top-line'></div>
+				<div class='right-line'></div>
+				<div class='bottom-line'></div>
+			</li>
+			<li>
+				<div class='left-line'></div>
+				<div class='top-line'></div>
+				<div class='right-line'></div>
+				<div class='bottom-line'></div>
+			</li>
+			<li>
+				<div class='left-line'></div>
+				<div class='top-line'></div>
+				<div class='right-line'></div>
+				<div class='bottom-line'></div>
+			</li>
+		</ul>
+		<ul id="list2">
+			<li>
+				<div class='left-line'></div>
+				<div class='top-line'></div>
+				<div class='right-line'></div>
+				<div class='bottom-line'></div>
+			</li>
+			<li>
+				<div class='left-line'></div>
+				<div class='top-line'></div>
+				<div class='right-line'></div>
+				<div class='bottom-line'></div>
+			</li>
+			<li>
+				<div class='left-line'></div>
+				<div class='top-line'></div>
+				<div class='right-line'></div>
+				<div class='bottom-line'></div>
+			</li>
+			<li>
+				<div class='left-line'></div>
+				<div class='top-line'></div>
+				<div class='right-line'></div>
+				<div class='bottom-line'></div>
+			</li>
+		</ul>
+	</body>
+
+</html>

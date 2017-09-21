@@ -1,0 +1,220 @@
+
+
+#good_mian{
+	width:1000px;
+	margin:0 auto;
+}
+.chaozuo{
+	background: #8C8C8C;
+	width: 1000px;
+	margin: 0 auto;
+	height: 58px;
+}
+ul li{
+	cursor:pointer;
+}
+h2{
+	font-weight: bold;
+	margin: 10px 0;
+}
+.chaozuo li{
+	float: left;
+	line-height: 58px;
+	width: 115px;
+	text-align: center;
+	font-size:16px ;
+	overflow: hidden;
+}
+.checkbox{
+	 width: 90px;
+    border-bottom: 0 none;
+    height: 58px;
+    line-height: 58px;
+    position: relative;
+    cursor: pointer;
+}
+.checkText{
+    font-size: 16px;
+}
+.chaozuo .list_name{
+	width: 260px;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 50px;
+}
+.good_list{
+	width: 100%;
+	border-top: 1px solid #CCCCCC;
+}
+.good_list li{
+	padding: 10px 0;
+	height: 107px;
+	border-bottom:1px solid #CCCCCC; 
+    line-height: 107px;
+    overflow: hidden;
+}
+.good_checkbox{
+	float: left;
+    text-align: center;
+    margin-top: 45px;
+    width: 40px;
+    margin-right: 17px;
+}
+.good_img{
+	float: left;
+    width: 80px;
+    height: 107px;
+    margin: -1px 0 0 -1px;
+    border: 1px solid #CCCCCC;
+    float: left;
+}
+ .good_name{
+	float: left;
+	width: 310px;
+	height: 107px;
+	margin-left: 10px;
+	
+}
+.good_name h3{
+	font-weight: bold;
+	line-height: 0;
+	margin-top: 30px;
+}
+.good_name p{
+	float: left;
+	overflow: hidden;
+	line-height:80px;
+}
+.danjia,.reduce,.num,.add,.youhui,.totalprice1,.detele1{
+	float:left ;
+}
+.danjia{
+	width: 83px;
+	text-align: left;
+	font-size:16px ;
+}
+.reduce,.add{
+	width: 34px;
+    height: 34px;
+    border-right: 0 none;
+    border-left: 0 none;
+    background: #eee;
+    text-indent: 0;
+    margin-top: 39px;
+    line-height: 34px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.num{
+	width: 40px;
+	height: 38px;
+	font-size:20px ;
+    font-weight: bold;
+    text-align: center;
+    line-height: 36px;
+    margin-top: 38px;
+    
+}
+.youhui,.totalprice1,.detele1{
+	 width: 110px;
+    height: 107px;
+    text-align: center;
+    line-height: 107px;
+    font-size:16px ;
+}
+.youhui{
+	width: 120px;
+}
+.totalprice1{
+	
+}
+.li_pop{
+	display:inline-block ;
+}
+.jiesuan{
+	width: 1000px;
+	height: 58px;
+	background: #eee;
+	margin: 0 auto;
+	position: relative;
+}
+.jiesuan .jiesuan_checkbox{
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 16px;
+	height: 16px;
+	border: 1px solid #999;
+	display: block;
+	margin-top: 20px;
+	float: left;
+}
+.jiesuan .jiesuan_quanxuan{
+	font-size: 14px;
+	color: #000;
+	display: inline-block;
+	height: 58px;
+	line-height: 58px;	
+	display: block;
+	float: left;
+	margin-right: 13px;
+}
+.jiesuan .jiesuan_yixuan{
+	display: block;
+	float: left;
+	font-size: 12px;
+	color: #909090;
+	height: 58px;
+	line-height: 58px;	
+}
+.jiesuan .jiesuan_yixuan .jiesuan_num{
+	margin: 0 8px;
+	color: red;
+	font-size: 14px;
+}
+.jiesuan .delete{
+	display: block;
+	float: left;
+	margin-top: 15px;
+	margin-left: 32px;
+	width: 78px;
+	height: 26px;
+	line-height: 26px;
+	border: 1px solid #ccc;
+	background: #fff;
+	color: #000;
+	text-align: center;	
+}
+.jiesuan .total-price{
+	display: block;
+	float: right;
+	margin-right: 152px;
+	height: 58px;
+	line-height: 58px;
+	color: #000;
+}
+.jiesuan .total-price .count{
+	color: red;
+	font-size: 14px;
+	font-weight: 900;
+	margin-left: 12px;
+}
+.jiesuan #jiesuan_btn{
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 58px;
+	width: 140px;
+	background: #ccc;
+	cursor: pointer;
+	color: #fff;
+	font-size: 20px;
+}
+.delete1{
+    height: 107px;
+    text-align: center;
+    line-height: 107px;
+    font-size: 16px;
+    display: block;
+}

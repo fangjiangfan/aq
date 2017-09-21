@@ -1,0 +1,149 @@
+
+
+.mian{
+	width: 1000px;
+	height: 827px;
+	margin: 0 auto;
+	background: url(../images/zhuce.jpg);
+	
+}
+.logo{
+	background-image: url(../images/img/base_z.png);
+	background-position: -704px 0;
+    width: 369px;
+    height: 36px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.mian2-right{
+	width: 350px;
+	height: 483px;
+	margin-top: 60px;
+	margin-right: 150px;
+	float: right;
+}
+.mian3-right{
+	width: 350px;
+	height: auto;
+	padding-bottom: 10px;
+}
+.top{
+	overflow: hidden;
+}
+.top h2{
+	 font-size: 16px;
+    font-weight: bold;
+    float: left;
+}
+.top .denglu{
+	float: right;
+}
+.top span{
+	float: right;
+}
+.mian2-right .denglu a,.xinren{
+	color: red;
+	margin: 15px 0 15px 90px;
+}
+input{
+	width: 258px;
+	height: 26px;
+	border: 1px solid #777777;
+	float: right;
+}
+.mian3-right ul li{
+	margin-top: 10px;
+	/*height: 30px;*/
+	overflow: hidden;
+}
+.mian3-right ul li div{
+	height: 30px;
+	display: inline-block;
+}
+.mian3-right ul p {
+	margin-left: 90px;
+	height: 20px;
+	line-height: 20px;
+	color: red;
+}
+.mian3-right .zhuce{
+    display: block;
+    background-color: #db2725;
+    width: 260px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    color: #FFF;
+    font-size: 14px;
+    margin: 20px 0 10px 90px;
+}
+
+.yanzheng,.yanzheng2,.duanxi,.duanxian2{
+	width: 124px;
+	height: 26px;
+}
+.yanzheng2,.duanxian2{
+	height: 30px;
+	margin-left: 10px;
+}
+.pwd{
+	height: 15px;
+	margin-left: 90px;
+}
+.pwd span{
+	margin-top:10px ;
+	width: 86px;
+	height: 15px;
+	background: #000000;
+	display: block;
+	float: left;
+	text-align: center;
+	color: #fff;
+}
+.pwd span:nth-child(1),.pwd span:nth-child(2){
+	border-right: 1px solid #FFFFFF;
+}
+.pwd span:nth-child(3),.pwd span:nth-child(2){
+	background: #4C4C4C;
+}
+.read{
+	margin:10px 0 10px 90px;
+	
+}
+.new{
+	margin:0 0 10px 90px;
+	overflow: hidden;
+	
+}
+.box{
+	margin-top: 2px;
+	height: 10px;
+	width: 10px;
+	border: 1px solid #666666;
+	background: #000000;
+	float: left;
+}
+.box_word{
+	float: left;
+}
+.QR_code{
+	width:99px;
+	height: 99px;
+	margin: 20px 25px 0 90px;
+	float: left;
+}
+.QR_code_p{
+	float: left;
+	margin-top: 40px;
+}
+.QR_code_p p{
+	margin-bottom: 5px;
+}
+li p{
+	display: none;
+}
+.forget {
+	float: right;
+}

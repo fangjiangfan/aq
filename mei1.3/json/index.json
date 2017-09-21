@@ -1,0 +1,82 @@
+
+
+[	
+		{
+			"id":"0001",
+			"img":"images/1.jpg" ,
+			"introduce":"MO&CO ROCK A ROSE 玫瑰印记",
+			"discount":4
+		},
+		{
+			"id":"0002",
+			"img":"images/2.jpg" ,
+			"introduce":"MO&CO ROCK A ROSE 玫瑰印记",
+			"discount":4
+		},
+		{
+			"id":"0003",
+			"img":"images/3.jpg" 
+		},
+		{
+			"id":"0004",
+			"img":"images/4.jpg" ,
+			"introduce":"MO&CO ROCK A ROSE 玫瑰印记",
+			"discount":4
+		},
+		{
+			"id":"0005",
+			"img":"images/5.jpg" ,
+			"introduce":"MO&CO ROCK A ROSE 玫瑰印记",
+			"discount":4
+		},
+		{
+			"id":"0006",
+			"img":"images/6.jpg" ,
+			"introduce":"MO&CO ROCK A ROSE 玫瑰印记",
+			"discount":4
+		},
+		{
+			"id":"0007",
+			"img":"images/7.jpg" ,
+			"introduce":"MO&CO ROCK A ROSE 玫瑰印记",
+			"discount":4
+		},
+		{
+			"id":"0008",
+			"img":"images/8.jpg" ,
+			"introduce":"MO&CO ROCK A ROSE 玫瑰印记",
+			"discount":4
+		},
+		{
+			"id":"0009",
+			"img":"images/9.jpg" ,
+			"introduce":"MO&CO ROCK A ROSE 玫瑰印记",
+			"discount":4
+		},
+		{
+			"id":"0010",
+			"img":"images/10.jpg" ,
+			"introduce":"MO&CO ROCK A ROSE 玫瑰印记",
+			"discount":4
+		},
+		{
+			"id":"0011",
+			"img":"images/11.jpg" ,
+			"introduce":"MO&CO ROCK A ROSE 玫瑰印记",
+			"discount":4
+		},
+		{
+			"id":"0012",
+			"img":"images/12.jpg" ,
+			"introduce":"MO&CO ROCK A ROSE 玫瑰印记",
+			"discount":4
+		},
+		{
+			"id":"0013",
+			"img":"images/13.jpg" ,
+			"introduce":"MO&CO ROCK A ROSE 玫瑰印记",
+			"discount":4
+		}
+	
+]
+

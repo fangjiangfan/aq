@@ -1,0 +1,200 @@
+.reduce,.add{
+	 width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    font-size: 24px;
+    border-right: 0;
+    background: #eee;
+    text-indent: 0;
+}
+ul li{
+	cursor:pointer;
+}
+.good_list li{
+	float: left;
+}
+.mian{
+	width: 900px;
+	height: auto;
+	margin: 5px auto;
+	overflow: hidden;
+}
+.middleImg{
+	width: 360px;
+	height: 478px;
+	float: left;
+	position: relative;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+.middleImg img{ 
+	width: 360px;
+	height: 480px;
+}
+.middleArea{
+	position: absolute;
+	display: none; 
+	width: 100px; 
+	height: 100px; 
+	background: rgba(200, 222,111, 0.3); 
+	left: 50px; top: 0;
+}
+.title{
+	width: auto;
+    height: auto;
+    overflow: hidden;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 32px;
+    padding: 4px 40px 0 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.mian2{
+	float: left;
+	width: 480px;
+	height: 480px;
+	margin-left: 20px;
+	overflow: hidden;
+	position: relative;
+}
+.mian2 h2{
+	font-size: 14px;
+	color: #A8A8A8;
+	margin-bottom: 20px;
+}
+.jiege{
+	overflow: hidden;
+}
+.jiege div{
+	float:left;
+}
+.price,.now{
+	font-size: 28px;
+    font-weight: bold;
+    color: #dd2828;
+}
+.before{
+	 white-space: nowrap;
+    font-size: 18px;
+    text-decoration: line-through;
+    color: #999;
+}
+.zhe{
+	float: right;
+}
+.shuzi,.unit{
+	float: left;
+	padding-top:10px ;
+}
+.unit{
+	padding-top:15px;
+	font-size: 14px;
+}
+.shuzi{
+	 color: #000;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: arial;
+}
+.number{
+	margin: 20px 0;
+	font-size: 14px;
+	color: #999999;
+}
+.anniu{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.anniu div{
+	float: left;
+}
+.anniu .num{
+	float: left;
+}
+.num{
+	 width: 40px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.gouwu{
+    width: 230px;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    font-size: 14px;
+    background-color: #222;
+    color: #fff;
+    float: left;
+    margin-right: 20px;
+}
+.go{
+	background-color: #dd2828;
+    font-size: 16px;
+    font-weight: bold;
+    width: 230px;
+    height: 44px;
+    line-height: 44px;
+    float: left;
+    text-align: center;
+    display: block;
+}
+.endtime{
+	float: left;
+	margin: 30px 0 20px 0;
+}
+.xianshi{
+	font-size: 14px;
+    color: #000;
+    height: 21px;
+    line-height: 21px;
+}
+.shengyu{
+    font-weight: 500;
+    letter-spacing: 3px;
+    height: 21px;
+    line-height: 21px;
+}
+.time{
+	float: left;
+	margin: 20px;
+	 vertical-align: top;
+    line-height: 48px;
+    font-size:16px ;
+}
+.time span{
+	display: inline-block;
+	font-size: 32px;
+    font-family: Helvetica,'Microsoft YaHei',Tahoma,Arial,sans-serif;
+    color: #000;
+    font-style: normal;
+    padding: 2px;
+    border: 1px solid #666666;
+    margin-right: 5px;
+}
+.good_list li{
+	margin: 10px;
+}
+#load{
+	overflow: hidden;
+}
+.bigArea{
+	width:360px ;
+	height: 480px;
+	position: absolute;
+	overflow: hidden;
+	right: 200px;
+	z-index: 20;
+}
+.bigImg{
+	width: 720px;
+	height: 960px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+

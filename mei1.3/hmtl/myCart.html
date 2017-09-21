@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/myCart.css"/>
+		<script src="../jq/jquery-1.12.3.js"></script>
+		<script src="../jq/jquery.cookie.js"></script>
+		<script src="../js/myCart.js"></script>
+	</head>
+	<body>
+		<div id="load"></div>
+		<div id="good_mian">
+			<h2>魅力惠直接发</h2>
+			<ul class="chaozuo">
+				<li class="checkbox">
+					<input type="checkbox"  class="jiesuan_checkbox"/>
+					<span class="checkText">全选</span>
+				</li>
+				<li class="list_name">商品信息</li>
+				<li>单价</li>
+				<li>数量</li>
+				<li>优惠</li>
+				<li>小计</li>
+				<li>操作</li>
+			</ul>
+			<ul class="good_list">
+				<li>
+					<!--<input type="checkbox" class="good_checkbox" />-->
+					<!--<img src="../images/img4/1-m.jpg"  class="good_img"/>-->
+					<!--<div class="good_name">
+						<h3>CHICCO</h3>
+						<p>变形机器人遥控车</p>
+					</div>-->
+					<!--<div class="danjia">￥<span>268</span></div>-->
+					<!--<div class="reduce">-</div>
+					<input type="text" value="1"  class="num"/>
+					<div class="add">+</div>-->
+					<!--<div class="youhui">￥0.00</div>
+					<div class="totalprice1">￥<span class="totalPricenum">268</span></div>-->
+					<!--<a class="detele1" href='javascript:;'>删除</a>-->
+				</li>
+			</ul>
+		</div>
+		<div class="jiesuan">
+			<input type="checkbox" class="jiesuan_checkbox"  />
+			<span class="jiesuan_quanxuan">全选</span>
+			<span class="jiesuan_yixuan">已选<i class="jiesuan_num">0</i>件</span>
+			<a href="javascript:;" class="delete">删除</a>
+			<span class="total-price">总价（不含运费）：<i class="count">￥0.00</i></span>
+			<input type="button" id="jiesuan_btn" value="结算" />
+		</div>
+		<div id="bottom"></div>
+	</body>
+</html>
